@@ -1,3 +1,4 @@
+
 [general]
 live_config_reload = true
 
@@ -38,7 +39,7 @@ vi_mode_style.shape = "Block"
 vi_mode_style.blinking = "Off"
 
 [env]
-TERM = "alacritty"
+TERM = "xterm-256color"
 
 [font]
 size = 17
@@ -57,7 +58,7 @@ semantic_escape_chars = ",│`|:\"' ()[]{}<>\t"
 [window]
 decorations = "Buttonless" # "Full" | "None" | "Transparent" | "Buttonless"
 dynamic_padding = true
-opacity = 0.8
+opacity = 0.6
 blur = true
 startup_mode = "Windowed"  # "Windowed" | "Maximized" | "Fullscreen" | "SimpleFullscreen"
 title = "Alacritty"
